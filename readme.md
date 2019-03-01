@@ -1,10 +1,10 @@
 ## Converge Payment Demo
 
-This demo is made with [wwwroth] (https://github.com/wwwroth/php-converge-api)'s plugin
+This demo is made with [wwwroth](https://github.com/wwwroth/php-converge-api) plugin
 
 ## Converge
 
-Converge is a Payment method powerd by [Elavon] (https://developer.elavon.com)
+Converge is a Payment method powerd by [Elavon](https://developer.elavon.com)
 
 ## Laravel
 
