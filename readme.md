@@ -10,9 +10,9 @@ Converge is a Payment method powerd by [Elavon](https://developer.elavon.com)
 
 This demo is made of Laravel, Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Credentials
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Replace your Converge SSH API credentials in .env file under "ELAVON" section.
 
 ## Requirement
 
@@ -24,7 +24,12 @@ php-curl
 
 ## Installation
 
+Run these commands step by step and enjoy the demo.
+
 ```sh
 cd converge-demo
 composer install
+cp .env.example .env
+php artisan key:generate
+php artisan serve
 ```
